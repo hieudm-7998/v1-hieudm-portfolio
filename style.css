@@ -1,11 +1,11 @@
 @font-face {
   font-family: "UTM Penumbra";
-  src: url("font/UTM Penumbra.ttf");
+  src: url("UTM Penumbra.ttf");
 }
 
 @font-face {
   font-family: "UTM Penumbra Bold";
-  src: url("font/UTM PenumbraBold.ttf");
+  src: url("UTM PenumbraBold.ttf");
 }
 
 * {
