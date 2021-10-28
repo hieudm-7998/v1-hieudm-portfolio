@@ -45,11 +45,19 @@ body .penum-b {
 }
 
 .main-container .left-box {
-  position: fixed;
-  left: 0;
-  width: 25%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.2);
+  top: 0;
+  width: 100%;
+  background: none;
+}
+
+@media screen and (min-width: 992px) {
+  .main-container .left-box {
+    position: fixed;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+  }
 }
 
 .main-container .left-box .box-thumb img {
@@ -82,7 +90,20 @@ body .penum-b {
   padding: 30px;
 }
 
+.main-container .right-box .tab-box h3 {
+  font-size: 23px;
+}
+
 .main-container .right-box .tab-box .brd-black {
   border-bottom: 1px solid black;
+}
+
+.main-container .right-box .tab-box .skill-box {
+  margin: 0 1.5rem;
+}
+
+.main-container .right-box .tab-box .skill-box canvas {
+  display: block;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
